@@ -1,1 +1,83 @@
-/*Schrijf hier jouw CSS*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*container*/
+body {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100vh 100vw;
+
+}
+
+/*nav*/
+.outer-col-1 {
+    flex-direction: column;
+    flex-basis: 20%;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+/*div*/
+.outer-col-2 {
+    display: flex;
+    flex-direction: column;
+    min-height: auto;
+    min-width: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.header {
+    flex-direction: row;
+    flex-basis: 150px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+/*!*container*!div*/
+.inner-row {
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+    min-height: 100vh;
+    flex-grow: 1;
+    flex-shrink: 1;
+
+}
+
+.aside {
+    flex-direction: row;
+    flex-basis: 20%;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+
+/*!*container*!div*/
+.inner-col {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+
+}
+
+.article {
+
+    flex-basis: 40%;
+    flex-grow: 1;
+
+}
+
+.footer {
+    flex-basis: 150px;
+}
+
+
+
+
+
+
